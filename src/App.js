@@ -1,6 +1,9 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { Test1, STYLE } from "./components";
+// import "./components";
+// import { Test1, Test2 } from "./components";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Test1 style={STYLE}></Test1>
+      {/* <Test1></Test1>
+      <Test2></Test2> */}
     </div>
   );
 }
